@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Potion{% endblock %}
+
+{% block body %}
+    <h1>Create new Potion</h1>
+
+    {{ include('potion/_form.html.twig') }}
+
+    <a href="{{ path('potion_index') }}">back to list</a>
+{% endblock %}

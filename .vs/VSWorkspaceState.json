@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\config",
+    "\\config\\routes",
+    "\\config\\routes\\dev",
+    "\\public",
+    "\\src",
+    "\\src\\Controller",
+    "\\src\\DataFixtures",
+    "\\src\\Entity",
+    "\\src\\Form"
+  ],
+  "SelectedNode": "\\src\\Controller\\BagController.php",
+  "PreviewInSolutionExplorer": false
+}

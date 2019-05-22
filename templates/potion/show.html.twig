@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Potion{% endblock %}
+
+{% block body %}
+    <h1>Potion</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ potion.id }}</td>
+            </tr>
+            <tr>
+                <th>Vie</th>
+                <td>{{ potion.Vie }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('potion_index') }}">back to list</a>
+
+    <a href="{{ path('potion_edit', {'id': potion.id}) }}">edit</a>
+
+    {{ include('potion/_delete_form.html.twig') }}
+{% endblock %}
